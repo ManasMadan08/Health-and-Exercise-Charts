@@ -34,7 +34,7 @@ def LogChoice(name,thing):
 
 def RetrieveChoice(name,thing):
     try:
-        f = open(f"28_{name}_{thing}.txt")
+        f = open(f"28_name_{thing}.txt")
         print(f.read())
         f.close()
     except:
